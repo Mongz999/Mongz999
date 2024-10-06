@@ -1,0 +1,131 @@
+
+
+
+
+/* general */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+/* header */
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 60px;
+    background: #41447e;
+    justify-content:space-between;
+    align-items: center;
+}
+
+/* logo/name */
+
+.logo {
+    text-decoration: none;
+    font-size: 25px;
+    display: flex;
+}
+
+.name {
+    display: inline-block;
+    vertical-align: text-bottom;
+    line-height: 1.6;
+    font-weight: 600;
+    color: #fefefe;
+    text-decoration: none;
+}
+
+img {
+    width: 60px;
+    height: 50px;
+}
+
+/* navbar */
+
+nav a {
+    font-size: 20px;
+    color: #fefefe;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 75px;
+    transform: .3s;
+}
+
+nav a:hover {
+    color: #4e56ff;
+}
+
+/*content*/
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f8ff;
+    color: #343343;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #343343;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+    background-size: 104%;
+}
+
+table {
+    width: 70%;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+th {
+    background-color: #41447e; /* Custom blue color */
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+    border: 1px solid #343343;
+}
+
+td {
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+    border: 1px solid #343343;
+}
+
+th:first-child,td:first-child {
+    background-color: #41447e;
+}
+
+/* footer */
+
+.footer {
+    background-color: #41447e;
+    padding: 30px;
+    color: #fefefe;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+  }
+  
+.footer nav a {
+    color: #fefefe;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: 600;
+}
+  
+.footer nav a:hover {
+    color: #4e56ff;
+}

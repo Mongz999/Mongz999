@@ -1,0 +1,134 @@
+
+/* general */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+/* header */
+
+header {
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 60px;
+    background:  #41447e;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+/* logo/name */
+
+.logo {
+    text-decoration: none;
+    font-size: 25px;
+    display: flex;
+}
+
+.name {
+    display: inline-block;
+    vertical-align: text-bottom;
+    line-height: 1.6;
+    font-weight: 600;
+    color: #fefefe;
+    text-decoration: none;
+}
+
+.logo-img {
+    width: 60px;
+    height: 50px;
+}
+
+/* navbar */
+
+nav a {
+    font-size: 20px;
+    color: #fefefe;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 75px;
+    transform: .3s;
+}
+
+nav a:hover {
+    color: #4e56ff;
+}
+
+/* content */
+
+body {
+    background: #343343;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+    background-size: 104%;
+}
+
+.personal {
+    color: #fefefe;
+    margin: 70px;
+    font-size: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+.profile-img {
+    width: 300px;
+    height: 300px;
+    float: right;
+    margin-top: 80px;
+    margin-right: 300px;
+    border-radius: 50%;
+}
+
+li{
+    list-style: none;
+}
+
+.hobbies{
+    color: #fefefe;
+    text-align: center;
+    line-height: 1.5;
+    margin-left: 30%;
+    margin-right: 25px;
+    margin-bottom: 200px;
+    display: inline-block;
+}
+
+.favcolors{
+    color: #fefefe;
+    text-align: center;
+    line-height: 1.5;
+    margin-left: 15%;
+    margin-right: 50px;
+    margin-bottom: 200px;
+    display: inline-block;
+}
+
+/* footer */
+
+.footer {
+    background-color: #41447e;
+    padding: 30px;
+    color: #fefefe;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+.footer nav a {
+    color: #fefefe;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: 600;
+}
+  
+.footer nav a:hover {
+    color: #4e56ff;
+}
